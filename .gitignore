@@ -1,7 +1,70 @@
-output/renders/*
-output/tmp/*
-logs/*.log
-logs/*.txt
-jobs/*.csv
-jobs/*.json
-!jobs/*.template.json
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / local config
+.env
+.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+.npm-cache/
+.npm/
+.pnpm-store/
+.next/
+.nuxt/
+.parcel-cache/
+
+# Browser automation / local runtime
+browser-profile/
+playwright-report/
+playwright/.auth/
+
+# Logs / temp / cache
+*.log
+logs/
+log/
+tmp/
+temp/
+.cache/
+coverage/
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Media processing scratch
+*.tmp
+*.bak
+*.orig
+
+# Archives
+*.zip
+*.7z
+*.rar
