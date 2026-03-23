@@ -1,0 +1,31 @@
+{
+  "job_name": "sample-short-video",
+  "enabled": true,
+  "source_materials": {
+    "video": [
+      "materials/raw/example.mp4"
+    ],
+    "audio": [
+      "materials/audio/example.mp3"
+    ],
+    "subtitles": [
+      "materials/subtitles/example.srt"
+    ]
+  },
+  "timeline": {
+    "target_duration_seconds": 30,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30
+  },
+  "rules": {
+    "intro_seconds": 2,
+    "outro_seconds": 2,
+    "subtitle_burn_in": true,
+    "bgm_mix_level_db": -18
+  },
+  "output": {
+    "directory": "output/renders",
+    "filename": "sample-short-video.mp4"
+  }
+}

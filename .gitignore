@@ -1,0 +1,7 @@
+output/renders/*
+output/tmp/*
+logs/*.log
+logs/*.txt
+jobs/*.csv
+jobs/*.json
+!jobs/*.template.json
